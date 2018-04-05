@@ -1,0 +1,28 @@
+.background    { background: linear-gradient(to bottom , pink, orange);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(243, 71, 6); }
+.wall          { background: rgb(255, 239, 119);   }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(61, 204, 204); }
+.player { background: linear-gradient(brown, brown); }
+.cactus        { background: rgb(0, 117, 20);}
+.cloud { background: gray;}
+.portal { background: purple;}
+.home { background: blue;}
+.house { background: brown;}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px blue, 4px -7px 8px blue;
+}
